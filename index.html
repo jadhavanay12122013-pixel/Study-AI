@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learn AI Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Learn AI 🤖</h1>
+
+  <input type="text" id="questionInput" placeholder="Ask a learning question...">
+  <button onclick="askQuestion()">Ask</button>
+
+  <h2>AI Answer:</h2>
+  <div id="answerBox"></div>
+
+  <h2>Public Feed</h2>
+  <input type="text" id="searchInput" placeholder="Search chats..." onkeyup="loadChats()">
+  <div id="chatFeed"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
