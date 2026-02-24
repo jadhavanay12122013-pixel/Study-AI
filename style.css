@@ -1,0 +1,10 @@
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+#chatFeed {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
